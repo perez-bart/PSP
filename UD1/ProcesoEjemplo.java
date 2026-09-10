@@ -6,9 +6,7 @@ public class ProcesoEjemplo {
         
         // ejemplo proceso abrir calculadora
         ProcessBuilder pb = new ProcessBuilder("cmd","/c", "start calc");
-
         Process p = pb.start();
-
         p.waitFor(); 
         
     }
