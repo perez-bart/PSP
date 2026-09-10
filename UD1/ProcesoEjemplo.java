@@ -4,14 +4,12 @@ public class ProcesoEjemplo {
 
     public static void main(String[] args) throws Exception {
         
-        
+        // ejemplo proceso abrir calculadora
         ProcessBuilder pb = new ProcessBuilder("cmd","/c", "start calc");
 
         Process p = pb.start();
 
-        p.waitFor();
-
-        
+        p.waitFor(); 
         
     }
 }
